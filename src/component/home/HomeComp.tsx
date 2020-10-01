@@ -1,11 +1,15 @@
 import React from "react";
 import {HomeHead} from "./HomeHead";
+import {HomeBodyComp} from "./HomeBodyComp";
 
-export class HomeComp extends React.Component<any, any>{
+export class HomeComp extends React.Component<any, any> {
 
     render() {
         return (
-            <HomeHead/>
+            <div>
+                <HomeHead/>
+                <HomeBodyComp/>
+            </div>
         );
     }
 }

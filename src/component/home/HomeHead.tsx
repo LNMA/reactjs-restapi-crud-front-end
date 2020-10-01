@@ -12,26 +12,26 @@ export class HomeHead extends React.Component<any, any> {
 
     render() {
         return (
-            <header>
+            <div>
                 <AppBar position="static" color={"secondary"}>
                     <Toolbar>
                         <Tooltip title="Home Page">
-                            <IconButton edge="start" color="inherit" aria-label="menu">
-                                <NavLink style={{color: "white", fontWeight: "bolder"}} exact to="/home"> CRUD
-                                    App
-                                </NavLink>
-                            </IconButton>
+                            <NavLink style={{color: "white", fontWeight: "bolder"}} exact to="/home">
+                                <IconButton edge="start" color="inherit" aria-label="menu">
+                                    CRUD App
+                                </IconButton>
+                            </NavLink>
                         </Tooltip>
                     </Toolbar>
                     <Tooltip title="Add User">
                         <Button color="inherit">
-                            <NavLink to='add-user' style={{color: "white"}}>
+                            <NavLink to='/add-user' style={{color: "white"}}>
                                 <PersonAddIcon style={{fontSize: 40}}/>
                             </NavLink>
                         </Button>
                     </Tooltip>
                 </AppBar>
-            </header>
+            </div>
         );
     }
 }
