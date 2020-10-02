@@ -1,8 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# reactjs-restapi-crud-front-end
 
-## Available Scripts
+-This repository represent the front-end of the poject.
+
+-You can found back-end here : [reactjs-restapi-crud](https://github.com/LNMA/reactjs-restapi-crud).
+
+
+## npm Available Scripts 
 
 In the project directory, you can run:
+
+### `npm install`
+
+It will be install all dependency that describe at `package-lock.json` file.
 
 ### `npm start`
 
